@@ -1,0 +1,20 @@
+Visual Convex Hull
+A simulation environment for 2d convex hull analysis
+
+0 - REQUIREMENTS
+1 - OVERVIEW
+2 - USAGE
+3 - TODO
+
+0 - REQUIREMENTS
+Python 2.7.3 or higher
+Pygame
+
+1 - OVERVIEW
+
+
+2 - USAGE
+
+
+3 - TODO
+Implement other Convex Hull algorithms to analyse
