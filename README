@@ -11,10 +11,20 @@ Python 2.7.3 or higher
 Pygame
 
 1 - OVERVIEW
-
+The convex hull is the smallest convex set of points that contains all points.
+The easiest way to think of it is like a rubber band stretched over a peg board.
+This application visually shows how the convex hull is calculated, currently implemented
+using Andrew's monotone chain algorithm O(n log n).  The source code for this
+implementation is included in the file convexHull.py.
 
 2 - USAGE
+Open the command line (unix) or command prompt (windows).  Navigate to the launch.py file
+and enter the command 'python launch.py'. A graphical environment is shown and accepts
+mouse clicks to make points to calculate the convex hull on.  At any point in time, if
+'Get Hull' is clicked then the points that constitute the convex hull are colored red as
+well as the edges connecting them.
 
 
 3 - TODO
-Implement other Convex Hull algorithms to analyse
+-Interactive environment, where each step of the convex hull is shown visually
+-Implement other Convex Hull algorithms to analyse
